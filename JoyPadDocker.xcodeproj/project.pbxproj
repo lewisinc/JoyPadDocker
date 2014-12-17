@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E9AE6881A4239FD00F902E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AE6871A4239FD00F902E2 /* AppDelegate.m */; };
+		8E9AE68A1A4239FD00F902E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AE6891A4239FD00F902E2 /* main.m */; };
+		8E9AE68D1A4239FD00F902E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AE68C1A4239FD00F902E2 /* ViewController.m */; };
+		8E9AE68F1A4239FD00F902E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9AE68E1A4239FD00F902E2 /* Images.xcassets */; };
+		8E9AE6921A4239FD00F902E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9AE6901A4239FD00F902E2 /* Main.storyboard */; };
+		8E9AE69E1A4239FD00F902E2 /* JoyPadDockerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AE69D1A4239FD00F902E2 /* JoyPadDockerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E9AE6981A4239FD00F902E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E9AE6791A4239FD00F902E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E9AE6801A4239FD00F902E2;
+			remoteInfo = JoyPadDocker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E9AE6811A4239FD00F902E2 /* JoyPadDocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoyPadDocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9AE6851A4239FD00F902E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E9AE6861A4239FD00F902E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E9AE6871A4239FD00F902E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E9AE6891A4239FD00F902E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E9AE68B1A4239FD00F902E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E9AE68C1A4239FD00F902E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E9AE68E1A4239FD00F902E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8E9AE6911A4239FD00F902E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E9AE6971A4239FD00F902E2 /* JoyPadDockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoyPadDockerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9AE69C1A4239FD00F902E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E9AE69D1A4239FD00F902E2 /* JoyPadDockerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JoyPadDockerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E9AE67E1A4239FD00F902E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9AE6941A4239FD00F902E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E9AE6781A4239FD00F902E2 = {
+			isa = PBXGroup;
+			children = (
+				8E9AE6831A4239FD00F902E2 /* JoyPadDocker */,
+				8E9AE69A1A4239FD00F902E2 /* JoyPadDockerTests */,
+				8E9AE6821A4239FD00F902E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E9AE6821A4239FD00F902E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E9AE6811A4239FD00F902E2 /* JoyPadDocker.app */,
+				8E9AE6971A4239FD00F902E2 /* JoyPadDockerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E9AE6831A4239FD00F902E2 /* JoyPadDocker */ = {
+			isa = PBXGroup;
+			children = (
+				8E9AE6861A4239FD00F902E2 /* AppDelegate.h */,
+				8E9AE6871A4239FD00F902E2 /* AppDelegate.m */,
+				8E9AE68B1A4239FD00F902E2 /* ViewController.h */,
+				8E9AE68C1A4239FD00F902E2 /* ViewController.m */,
+				8E9AE68E1A4239FD00F902E2 /* Images.xcassets */,
+				8E9AE6901A4239FD00F902E2 /* Main.storyboard */,
+				8E9AE6841A4239FD00F902E2 /* Supporting Files */,
+			);
+			path = JoyPadDocker;
+			sourceTree = "<group>";
+		};
+		8E9AE6841A4239FD00F902E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E9AE6851A4239FD00F902E2 /* Info.plist */,
+				8E9AE6891A4239FD00F902E2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E9AE69A1A4239FD00F902E2 /* JoyPadDockerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E9AE69D1A4239FD00F902E2 /* JoyPadDockerTests.m */,
+				8E9AE69B1A4239FD00F902E2 /* Supporting Files */,
+			);
+			path = JoyPadDockerTests;
+			sourceTree = "<group>";
+		};
+		8E9AE69B1A4239FD00F902E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E9AE69C1A4239FD00F902E2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E9AE6801A4239FD00F902E2 /* JoyPadDocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E9AE6A11A4239FD00F902E2 /* Build configuration list for PBXNativeTarget "JoyPadDocker" */;
+			buildPhases = (
+				8E9AE67D1A4239FD00F902E2 /* Sources */,
+				8E9AE67E1A4239FD00F902E2 /* Frameworks */,
+				8E9AE67F1A4239FD00F902E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JoyPadDocker;
+			productName = JoyPadDocker;
+			productReference = 8E9AE6811A4239FD00F902E2 /* JoyPadDocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E9AE6961A4239FD00F902E2 /* JoyPadDockerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E9AE6A41A4239FD00F902E2 /* Build configuration list for PBXNativeTarget "JoyPadDockerTests" */;
+			buildPhases = (
+				8E9AE6931A4239FD00F902E2 /* Sources */,
+				8E9AE6941A4239FD00F902E2 /* Frameworks */,
+				8E9AE6951A4239FD00F902E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E9AE6991A4239FD00F902E2 /* PBXTargetDependency */,
+			);
+			name = JoyPadDockerTests;
+			productName = JoyPadDockerTests;
+			productReference = 8E9AE6971A4239FD00F902E2 /* JoyPadDockerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E9AE6791A4239FD00F902E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "David Lewis";
+				TargetAttributes = {
+					8E9AE6801A4239FD00F902E2 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					8E9AE6961A4239FD00F902E2 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 8E9AE6801A4239FD00F902E2;
+					};
+				};
+			};
+			buildConfigurationList = 8E9AE67C1A4239FD00F902E2 /* Build configuration list for PBXProject "JoyPadDocker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E9AE6781A4239FD00F902E2;
+			productRefGroup = 8E9AE6821A4239FD00F902E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E9AE6801A4239FD00F902E2 /* JoyPadDocker */,
+				8E9AE6961A4239FD00F902E2 /* JoyPadDockerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E9AE67F1A4239FD00F902E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9AE68F1A4239FD00F902E2 /* Images.xcassets in Resources */,
+				8E9AE6921A4239FD00F902E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9AE6951A4239FD00F902E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E9AE67D1A4239FD00F902E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9AE68D1A4239FD00F902E2 /* ViewController.m in Sources */,
+				8E9AE68A1A4239FD00F902E2 /* main.m in Sources */,
+				8E9AE6881A4239FD00F902E2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9AE6931A4239FD00F902E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9AE69E1A4239FD00F902E2 /* JoyPadDockerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E9AE6991A4239FD00F902E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E9AE6801A4239FD00F902E2 /* JoyPadDocker */;
+			targetProxy = 8E9AE6981A4239FD00F902E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E9AE6901A4239FD00F902E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E9AE6911A4239FD00F902E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E9AE69F1A4239FD00F902E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8E9AE6A01A4239FD00F902E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8E9AE6A21A4239FD00F902E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JoyPadDocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E9AE6A31A4239FD00F902E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JoyPadDocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E9AE6A51A4239FD00F902E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JoyPadDockerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JoyPadDocker.app/Contents/MacOS/JoyPadDocker";
+			};
+			name = Debug;
+		};
+		8E9AE6A61A4239FD00F902E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JoyPadDockerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JoyPadDocker.app/Contents/MacOS/JoyPadDocker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E9AE67C1A4239FD00F902E2 /* Build configuration list for PBXProject "JoyPadDocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9AE69F1A4239FD00F902E2 /* Debug */,
+				8E9AE6A01A4239FD00F902E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E9AE6A11A4239FD00F902E2 /* Build configuration list for PBXNativeTarget "JoyPadDocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9AE6A21A4239FD00F902E2 /* Debug */,
+				8E9AE6A31A4239FD00F902E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E9AE6A41A4239FD00F902E2 /* Build configuration list for PBXNativeTarget "JoyPadDockerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9AE6A51A4239FD00F902E2 /* Debug */,
+				8E9AE6A61A4239FD00F902E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E9AE6791A4239FD00F902E2 /* Project object */;
+}
