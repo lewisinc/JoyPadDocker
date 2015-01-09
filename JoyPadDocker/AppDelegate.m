@@ -7,15 +7,17 @@
 //
 
 #import "AppDelegate.h"
+@class JP_HIDEventManager;
 
 @interface AppDelegate ()
-
+@property JP_HIDEventManager* eventManager;
 @end
 
 @implementation AppDelegate
-
+@synthesize eventManager;
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+     eventManager = [[JP_HIDEventManager alloc] init];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {

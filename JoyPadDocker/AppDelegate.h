@@ -7,9 +7,10 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "JP_HIDEventManager.h"
+#import "MainViewController.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
-
 
 @end
 

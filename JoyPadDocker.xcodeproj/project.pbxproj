@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E90DACD1A607DB6005EC8F0 /* KeyCodeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E90DACC1A607DB6005EC8F0 /* KeyCodeDictionary.m */; };
 		8E9AE6881A4239FD00F902E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AE6871A4239FD00F902E2 /* AppDelegate.m */; };
 		8E9AE68A1A4239FD00F902E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AE6891A4239FD00F902E2 /* main.m */; };
-		8E9AE68D1A4239FD00F902E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AE68C1A4239FD00F902E2 /* ViewController.m */; };
+		8E9AE68D1A4239FD00F902E2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AE68C1A4239FD00F902E2 /* MainViewController.m */; };
 		8E9AE68F1A4239FD00F902E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9AE68E1A4239FD00F902E2 /* Images.xcassets */; };
 		8E9AE6921A4239FD00F902E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9AE6901A4239FD00F902E2 /* Main.storyboard */; };
 		8E9AE69E1A4239FD00F902E2 /* JoyPadDockerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AE69D1A4239FD00F902E2 /* JoyPadDockerTests.m */; };
+		8E9AE6A91A423A9D00F902E2 /* JP_HIDEventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AE6A81A423A9D00F902E2 /* JP_HIDEventManager.m */; };
+		8E9AE6AE1A42484B00F902E2 /* KeyCodeRepresentations (hex).plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E9AE6AD1A42484B00F902E2 /* KeyCodeRepresentations (hex).plist */; };
+		8EAABD3D1A4B64FF0042CAE4 /* JP_HIDEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAABD3C1A4B64FF0042CAE4 /* JP_HIDEvent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,18 +30,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E90DACB1A607DB6005EC8F0 /* KeyCodeDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyCodeDictionary.h; sourceTree = "<group>"; };
+		8E90DACC1A607DB6005EC8F0 /* KeyCodeDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyCodeDictionary.m; sourceTree = "<group>"; };
 		8E9AE6811A4239FD00F902E2 /* JoyPadDocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoyPadDocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9AE6851A4239FD00F902E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E9AE6861A4239FD00F902E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8E9AE6871A4239FD00F902E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8E9AE6891A4239FD00F902E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8E9AE68B1A4239FD00F902E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8E9AE68C1A4239FD00F902E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E9AE68B1A4239FD00F902E2 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8E9AE68C1A4239FD00F902E2 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		8E9AE68E1A4239FD00F902E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8E9AE6911A4239FD00F902E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E9AE6971A4239FD00F902E2 /* JoyPadDockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoyPadDockerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9AE69C1A4239FD00F902E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E9AE69D1A4239FD00F902E2 /* JoyPadDockerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JoyPadDockerTests.m; sourceTree = "<group>"; };
+		8E9AE6A71A423A9D00F902E2 /* JP_HIDEventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JP_HIDEventManager.h; sourceTree = "<group>"; };
+		8E9AE6A81A423A9D00F902E2 /* JP_HIDEventManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JP_HIDEventManager.m; sourceTree = "<group>"; };
+		8E9AE6AD1A42484B00F902E2 /* KeyCodeRepresentations (hex).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KeyCodeRepresentations (hex).plist"; sourceTree = "<group>"; };
+		8EAABD3B1A4B64CE0042CAE4 /* JP_HIDEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JP_HIDEvent.h; sourceTree = "<group>"; };
+		8EAABD3C1A4B64FF0042CAE4 /* JP_HIDEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JP_HIDEvent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +92,15 @@
 			children = (
 				8E9AE6861A4239FD00F902E2 /* AppDelegate.h */,
 				8E9AE6871A4239FD00F902E2 /* AppDelegate.m */,
-				8E9AE68B1A4239FD00F902E2 /* ViewController.h */,
-				8E9AE68C1A4239FD00F902E2 /* ViewController.m */,
+				8E9AE68B1A4239FD00F902E2 /* MainViewController.h */,
+				8E9AE68C1A4239FD00F902E2 /* MainViewController.m */,
+				8E9AE6A71A423A9D00F902E2 /* JP_HIDEventManager.h */,
+				8E9AE6A81A423A9D00F902E2 /* JP_HIDEventManager.m */,
+				8EAABD3B1A4B64CE0042CAE4 /* JP_HIDEvent.h */,
+				8EAABD3C1A4B64FF0042CAE4 /* JP_HIDEvent.m */,
+				8E90DACB1A607DB6005EC8F0 /* KeyCodeDictionary.h */,
+				8E90DACC1A607DB6005EC8F0 /* KeyCodeDictionary.m */,
+				8E9AE6AD1A42484B00F902E2 /* KeyCodeRepresentations (hex).plist */,
 				8E9AE68E1A4239FD00F902E2 /* Images.xcassets */,
 				8E9AE6901A4239FD00F902E2 /* Main.storyboard */,
 				8E9AE6841A4239FD00F902E2 /* Supporting Files */,
@@ -197,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E9AE68F1A4239FD00F902E2 /* Images.xcassets in Resources */,
+				8E9AE6AE1A42484B00F902E2 /* KeyCodeRepresentations (hex).plist in Resources */,
 				8E9AE6921A4239FD00F902E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,8 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E9AE68D1A4239FD00F902E2 /* ViewController.m in Sources */,
+				8E90DACD1A607DB6005EC8F0 /* KeyCodeDictionary.m in Sources */,
+				8E9AE68D1A4239FD00F902E2 /* MainViewController.m in Sources */,
+				8EAABD3D1A4B64FF0042CAE4 /* JP_HIDEvent.m in Sources */,
 				8E9AE68A1A4239FD00F902E2 /* main.m in Sources */,
+				8E9AE6A91A423A9D00F902E2 /* JP_HIDEventManager.m in Sources */,
 				8E9AE6881A4239FD00F902E2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +426,7 @@
 				8E9AE6A31A4239FD00F902E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E9AE6A41A4239FD00F902E2 /* Build configuration list for PBXNativeTarget "JoyPadDockerTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +435,7 @@
 				8E9AE6A61A4239FD00F902E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,26 +8,33 @@
 
 #import <Cocoa/Cocoa.h>
 #import <XCTest/XCTest.h>
+#import "KeyCodeDictionary.h"
 
 @interface JoyPadDockerTests : XCTestCase
 
 @end
 
-@implementation JoyPadDockerTests
+@implementation JoyPadDockerTests {
+    KeyCodeDictionary *dictionary;
+}
 
 - (void)setUp {
     [super setUp];
+    dictionary = [[KeyCodeDictionary alloc] init];
     // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
 - (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
+    dictionary = nil;
     [super tearDown];
 }
 
-- (void)testExample {
+- (void)testStringFromKeyCode {
     // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
+    CGKeyCode aKey = 0;
+    NSString *keyName = [dictionary stringFromKeyCode:aKey];
+    XCTAssert([keyName isEqualToString:@"a"]);
 }
 
 - (void)testPerformanceExample {
