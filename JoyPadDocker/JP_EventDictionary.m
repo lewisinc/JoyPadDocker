@@ -6,9 +6,9 @@
 //  Copyright (c) 2015 David Lewis. All rights reserved.
 //
 
-#import "KeyCodeDictionary.h"
+#import "JP_EventDictionary.h"
 
-@implementation KeyCodeDictionary {
+@implementation JP_EventDictionary {
     NSDictionary *dictionary;
 }
 
@@ -41,9 +41,13 @@
         return -1;
     }
 }
+
 - (NSString *)stringFromKeyCode:(CGKeyCode)keyCode {
-    if (keyCode >= 0 && keyCode < 0x7) {
-        
+    if (keyCode >= 0 && keyCode < 0x7F) {
+        NSLog(@"%d",keyCode);
+        NSString *returnString = [NSString stringWithString:[dictionary objectForKey:[NSNumber numberWithUnsignedShort:keyCode]]];
+        NSLog(@"%@",returnString);
+        return returnString;
     } else {
         return nil;
     }

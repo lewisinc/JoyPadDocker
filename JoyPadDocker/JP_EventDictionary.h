@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface KeyCodeDictionary : NSObject
+@interface JP_EventDictionary : NSObject
 - (CGKeyCode)keyFromString:(NSString *)keyName;
 - (NSString *)stringFromKeyCode:(CGKeyCode)keyCode;
+- (NSDictionary *)dictionaryAsNSDictionary;
 @end

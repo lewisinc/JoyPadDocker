@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E90DACD1A607DB6005EC8F0 /* KeyCodeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E90DACC1A607DB6005EC8F0 /* KeyCodeDictionary.m */; };
+		8E3C0DC11A621CD1006A72C0 /* JP_CBCentral.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3C0DC01A621CD1006A72C0 /* JP_CBCentral.m */; };
+		8E90DACD1A607DB6005EC8F0 /* JP_EventDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E90DACC1A607DB6005EC8F0 /* JP_EventDictionary.m */; };
 		8E9AE6881A4239FD00F902E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AE6871A4239FD00F902E2 /* AppDelegate.m */; };
 		8E9AE68A1A4239FD00F902E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AE6891A4239FD00F902E2 /* main.m */; };
 		8E9AE68D1A4239FD00F902E2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AE68C1A4239FD00F902E2 /* MainViewController.m */; };
@@ -30,8 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8E90DACB1A607DB6005EC8F0 /* KeyCodeDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyCodeDictionary.h; sourceTree = "<group>"; };
-		8E90DACC1A607DB6005EC8F0 /* KeyCodeDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyCodeDictionary.m; sourceTree = "<group>"; };
+		8E3C0DBF1A621CD1006A72C0 /* JP_CBCentral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JP_CBCentral.h; sourceTree = "<group>"; };
+		8E3C0DC01A621CD1006A72C0 /* JP_CBCentral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JP_CBCentral.m; sourceTree = "<group>"; };
+		8E90DACB1A607DB6005EC8F0 /* JP_EventDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JP_EventDictionary.h; sourceTree = "<group>"; };
+		8E90DACC1A607DB6005EC8F0 /* JP_EventDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JP_EventDictionary.m; sourceTree = "<group>"; };
 		8E9AE6811A4239FD00F902E2 /* JoyPadDocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoyPadDocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9AE6851A4239FD00F902E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E9AE6861A4239FD00F902E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -98,8 +101,10 @@
 				8E9AE6A81A423A9D00F902E2 /* JP_HIDEventManager.m */,
 				8EAABD3B1A4B64CE0042CAE4 /* JP_HIDEvent.h */,
 				8EAABD3C1A4B64FF0042CAE4 /* JP_HIDEvent.m */,
-				8E90DACB1A607DB6005EC8F0 /* KeyCodeDictionary.h */,
-				8E90DACC1A607DB6005EC8F0 /* KeyCodeDictionary.m */,
+				8E90DACB1A607DB6005EC8F0 /* JP_EventDictionary.h */,
+				8E90DACC1A607DB6005EC8F0 /* JP_EventDictionary.m */,
+				8E3C0DBF1A621CD1006A72C0 /* JP_CBCentral.h */,
+				8E3C0DC01A621CD1006A72C0 /* JP_CBCentral.m */,
 				8E9AE6AD1A42484B00F902E2 /* KeyCodeRepresentations (hex).plist */,
 				8E9AE68E1A4239FD00F902E2 /* Images.xcassets */,
 				8E9AE6901A4239FD00F902E2 /* Main.storyboard */,
@@ -234,9 +239,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E90DACD1A607DB6005EC8F0 /* KeyCodeDictionary.m in Sources */,
+				8E90DACD1A607DB6005EC8F0 /* JP_EventDictionary.m in Sources */,
 				8E9AE68D1A4239FD00F902E2 /* MainViewController.m in Sources */,
 				8EAABD3D1A4B64FF0042CAE4 /* JP_HIDEvent.m in Sources */,
+				8E3C0DC11A621CD1006A72C0 /* JP_CBCentral.m in Sources */,
 				8E9AE68A1A4239FD00F902E2 /* main.m in Sources */,
 				8E9AE6A91A423A9D00F902E2 /* JP_HIDEventManager.m in Sources */,
 				8E9AE6881A4239FD00F902E2 /* AppDelegate.m in Sources */,
