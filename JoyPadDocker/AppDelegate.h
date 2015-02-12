@@ -7,7 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "JP_HIDEventManager.h"
+#import "JoyPadDocker.h"
 #import "MainViewController.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>

@@ -11,5 +11,5 @@
 @interface JP_EventDictionary : NSObject
 - (CGKeyCode)keyFromString:(NSString *)keyName;
 - (NSString *)stringFromKeyCode:(CGKeyCode)keyCode;
-- (NSDictionary *)dictionaryAsNSDictionary;
+- (NSDictionary *)dictionary;
 @end

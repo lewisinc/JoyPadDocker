@@ -16,6 +16,7 @@
 
 @implementation JoyPadDockerTests {
     JP_EventDictionary *dictionary;
+    
 }
 
 - (void)setUp {
@@ -29,13 +30,17 @@
     [super tearDown];
 }
 
-- (void)testStringFromKeyCode {
+- (void)testDictionary {
     // This is an example of a functional test case.
-    CGKeyCode aKey = 0;
-//    NSString *keyName = [NSString stringWithString:[[dictionary stringFromKeyCode:(CGKeyCode)aKey] ob]];
-//    
-//    XCTAssert([keyName isEqualToString:@"a"]);
-    XCTAssert(YES, @"");
+    NSDictionary *dict = dictionary.dictionary;
+    NSArray *keys, *values;
+    keys = [dict allKeys], values = [dict allValues];
+    NSUInteger count = [keys count];
+    for (NSInteger i = 0; i < count; i++) {
+        NSLog(@"Value: %@    Value Type: %@    \nKey Type: %@    KeyCode: %@", values[i], [[values[i] class] description], [[keys[i] class] description], [keys[i] description]);
+    }
+
+//     XCTAssert(YES, @"");
 }
 
 - (void)testPerformanceExample {

@@ -1,5 +1,5 @@
 //
-//  JP_CBCentrel.h
+//  JP_CBCentral.h
 //  JoyPadDocker
 //
 //  Created by David Lewis on 1/10/15.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreBluetooth/CoreBluetooth.h>
-
+#import "JP_EventManager.h"
 #define TRANSFER_SERVICE_UUID \
         @"B8C9D2F5-AB53-4D4A-8F41-C764EA5577C9"
 #define GAMEPAD_STATE_CHARACTERISTIC_UUID \
@@ -18,15 +18,25 @@
 #define SHOULD_DISCONNECT_CHARACTERISTIC_UUID \
         @"26B30EA8-1652-4EFF-9449-ECE0A6A8E241"
 
+@protocol JP_CBCentralDelegate <NSObject>
+- (void)beginScanning;
+- (void)stopScanning;
+- (CBCentralManagerState)state;
+- (void)cleanup;
+@end
+
 @interface JP_CBCentral : NSObject \
         <CBCentralManagerDelegate, CBPeripheralDelegate>
 
-@property (strong, nonatomic) CBCentralManager      *centralManager;
-@property (strong, nonatomic) CBPeripheral          *discoveredPeripheral;
-@property (strong, nonatomic) NP_C         *data;
-@property (strong, nonatomic) NSDictionary          *keyCodes;
+@property (strong, nonatomic) CBCentralManager *centralManager;
+@property (strong, nonatomic) CBPeripheral *discoveredPeripheral;
+@property (strong, atomic) NSMutableData *data;
+@property (strong, atomic) NSDictionary *keyCodes;
+@property (atomic) JP_EventManager *eventHandler;
 
 - (void)beginScanning;
 - (void)stopScanning;
+- (CBCentralManagerState)state;
+- (void)cleanup;
 
 @end

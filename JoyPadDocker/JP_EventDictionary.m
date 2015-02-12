@@ -53,5 +53,9 @@
     }
 }
 
+- (NSDictionary *)dictionary {
+    return dictionary;
+}
+
 
 @end

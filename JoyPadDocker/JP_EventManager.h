@@ -9,11 +9,12 @@
 #import <Foundation/Foundation.h>
 #import "JP_HIDEvent.h"
 
-@interface JP_HIDEventManager : NSObject
+@interface JP_EventManager : NSObject<JP_HIDEventsDelegate>
 // To house the following example: @"0x7C" >> @"ArrowRight"
-@property (strong, nonatomic) NSDictionary *keyCodeRepresentations;
 @property (strong, nonatomic) NSArray *currentEvents;
 @property (strong, nonatomic) NSTimer *eventTimer;
-- (CGKeyCode)keycodeFromString:(NSString *)string;
-
+- (JP_HIDEventState)createEvent:(CGKeyCode)keyCode;
+- (JP_HIDEventState)destroyEvent:(CGKeyCode)keyCode;
+- (void)updateState:(NSData *)newStateData;
+- (void)updateConfig:(NSData *)newConfigData;
 @end

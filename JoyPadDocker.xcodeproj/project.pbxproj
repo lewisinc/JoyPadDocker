@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E376C7A1A65E76100A7CBF6 /* JoyPadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E376C791A65E76100A7CBF6 /* JoyPadModel.m */; };
 		8E3C0DC11A621CD1006A72C0 /* JP_CBCentral.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3C0DC01A621CD1006A72C0 /* JP_CBCentral.m */; };
 		8E90DACD1A607DB6005EC8F0 /* JP_EventDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E90DACC1A607DB6005EC8F0 /* JP_EventDictionary.m */; };
 		8E9AE6881A4239FD00F902E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AE6871A4239FD00F902E2 /* AppDelegate.m */; };
@@ -15,8 +16,9 @@
 		8E9AE68F1A4239FD00F902E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9AE68E1A4239FD00F902E2 /* Images.xcassets */; };
 		8E9AE6921A4239FD00F902E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9AE6901A4239FD00F902E2 /* Main.storyboard */; };
 		8E9AE69E1A4239FD00F902E2 /* JoyPadDockerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AE69D1A4239FD00F902E2 /* JoyPadDockerTests.m */; };
-		8E9AE6A91A423A9D00F902E2 /* JP_HIDEventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AE6A81A423A9D00F902E2 /* JP_HIDEventManager.m */; };
+		8E9AE6A91A423A9D00F902E2 /* JP_EventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AE6A81A423A9D00F902E2 /* JP_EventManager.m */; };
 		8E9AE6AE1A42484B00F902E2 /* KeyCodeRepresentations (hex).plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E9AE6AD1A42484B00F902E2 /* KeyCodeRepresentations (hex).plist */; };
+		8E9C3BB31A65C88600DA7B6B /* JoyPadDocker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9C3BB21A65C88600DA7B6B /* JoyPadDocker.m */; };
 		8EAABD3D1A4B64FF0042CAE4 /* JP_HIDEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAABD3C1A4B64FF0042CAE4 /* JP_HIDEvent.m */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E376C781A65E76100A7CBF6 /* JoyPadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoyPadModel.h; sourceTree = "<group>"; };
+		8E376C791A65E76100A7CBF6 /* JoyPadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoyPadModel.m; sourceTree = "<group>"; };
 		8E3C0DBF1A621CD1006A72C0 /* JP_CBCentral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JP_CBCentral.h; sourceTree = "<group>"; };
 		8E3C0DC01A621CD1006A72C0 /* JP_CBCentral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JP_CBCentral.m; sourceTree = "<group>"; };
 		8E90DACB1A607DB6005EC8F0 /* JP_EventDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JP_EventDictionary.h; sourceTree = "<group>"; };
@@ -47,9 +51,11 @@
 		8E9AE6971A4239FD00F902E2 /* JoyPadDockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoyPadDockerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9AE69C1A4239FD00F902E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E9AE69D1A4239FD00F902E2 /* JoyPadDockerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JoyPadDockerTests.m; sourceTree = "<group>"; };
-		8E9AE6A71A423A9D00F902E2 /* JP_HIDEventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JP_HIDEventManager.h; sourceTree = "<group>"; };
-		8E9AE6A81A423A9D00F902E2 /* JP_HIDEventManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JP_HIDEventManager.m; sourceTree = "<group>"; };
+		8E9AE6A71A423A9D00F902E2 /* JP_EventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JP_EventManager.h; sourceTree = "<group>"; };
+		8E9AE6A81A423A9D00F902E2 /* JP_EventManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JP_EventManager.m; sourceTree = "<group>"; };
 		8E9AE6AD1A42484B00F902E2 /* KeyCodeRepresentations (hex).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KeyCodeRepresentations (hex).plist"; sourceTree = "<group>"; };
+		8E9C3BB11A65C88600DA7B6B /* JoyPadDocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoyPadDocker.h; sourceTree = "<group>"; };
+		8E9C3BB21A65C88600DA7B6B /* JoyPadDocker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoyPadDocker.m; sourceTree = "<group>"; };
 		8EAABD3B1A4B64CE0042CAE4 /* JP_HIDEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JP_HIDEvent.h; sourceTree = "<group>"; };
 		8EAABD3C1A4B64FF0042CAE4 /* JP_HIDEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JP_HIDEvent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +78,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E16CB991A65EB2E00F0EC71 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				8E9AE6A71A423A9D00F902E2 /* JP_EventManager.h */,
+				8E9AE6A81A423A9D00F902E2 /* JP_EventManager.m */,
+				8EAABD3B1A4B64CE0042CAE4 /* JP_HIDEvent.h */,
+				8EAABD3C1A4B64FF0042CAE4 /* JP_HIDEvent.m */,
+				8E90DACB1A607DB6005EC8F0 /* JP_EventDictionary.h */,
+				8E90DACC1A607DB6005EC8F0 /* JP_EventDictionary.m */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		8E16CB9A1A65EB4B00F0EC71 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E9AE68B1A4239FD00F902E2 /* MainViewController.h */,
+				8E9AE68C1A4239FD00F902E2 /* MainViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		8E9AE6781A4239FD00F902E2 = {
 			isa = PBXGroup;
 			children = (
@@ -95,16 +123,14 @@
 			children = (
 				8E9AE6861A4239FD00F902E2 /* AppDelegate.h */,
 				8E9AE6871A4239FD00F902E2 /* AppDelegate.m */,
-				8E9AE68B1A4239FD00F902E2 /* MainViewController.h */,
-				8E9AE68C1A4239FD00F902E2 /* MainViewController.m */,
-				8E9AE6A71A423A9D00F902E2 /* JP_HIDEventManager.h */,
-				8E9AE6A81A423A9D00F902E2 /* JP_HIDEventManager.m */,
-				8EAABD3B1A4B64CE0042CAE4 /* JP_HIDEvent.h */,
-				8EAABD3C1A4B64FF0042CAE4 /* JP_HIDEvent.m */,
-				8E90DACB1A607DB6005EC8F0 /* JP_EventDictionary.h */,
-				8E90DACC1A607DB6005EC8F0 /* JP_EventDictionary.m */,
+				8E16CB9A1A65EB4B00F0EC71 /* Views */,
+				8E16CB991A65EB2E00F0EC71 /* Events */,
 				8E3C0DBF1A621CD1006A72C0 /* JP_CBCentral.h */,
 				8E3C0DC01A621CD1006A72C0 /* JP_CBCentral.m */,
+				8E9C3BB11A65C88600DA7B6B /* JoyPadDocker.h */,
+				8E9C3BB21A65C88600DA7B6B /* JoyPadDocker.m */,
+				8E376C781A65E76100A7CBF6 /* JoyPadModel.h */,
+				8E376C791A65E76100A7CBF6 /* JoyPadModel.m */,
 				8E9AE6AD1A42484B00F902E2 /* KeyCodeRepresentations (hex).plist */,
 				8E9AE68E1A4239FD00F902E2 /* Images.xcassets */,
 				8E9AE6901A4239FD00F902E2 /* Main.storyboard */,
@@ -243,8 +269,10 @@
 				8E9AE68D1A4239FD00F902E2 /* MainViewController.m in Sources */,
 				8EAABD3D1A4B64FF0042CAE4 /* JP_HIDEvent.m in Sources */,
 				8E3C0DC11A621CD1006A72C0 /* JP_CBCentral.m in Sources */,
+				8E9C3BB31A65C88600DA7B6B /* JoyPadDocker.m in Sources */,
 				8E9AE68A1A4239FD00F902E2 /* main.m in Sources */,
-				8E9AE6A91A423A9D00F902E2 /* JP_HIDEventManager.m in Sources */,
+				8E376C7A1A65E76100A7CBF6 /* JoyPadModel.m in Sources */,
+				8E9AE6A91A423A9D00F902E2 /* JP_EventManager.m in Sources */,
 				8E9AE6881A4239FD00F902E2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
